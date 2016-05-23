@@ -12,7 +12,7 @@ public class Solution {
 
 		int count = 0, w = 0;
 
-		for(eachNumber = 0; eachNumber <=num; eachNumber++) {
+		for(eachNumber = 0; eachNumber <= num; eachNumber++) {
 
 			currentNum = eachNumber;
 
@@ -21,7 +21,7 @@ public class Solution {
 
 				currentBit = currentNum % 2;
 
-				currentNum= (currentNum >> 1);
+				currentNum = (currentNum >> 1);
 
 				bits.add(currentBit);
 
